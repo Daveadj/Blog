@@ -1,6 +1,7 @@
 import { IPostRepository } from "../repository/interfaces/IPostRepository";
 import { CreatePostDto, PostResponseDto, UpdatePostDto } from "../Dtos/post.dto";
 import { Post } from "../models/post";
+import { NotFoundException } from "../exceptions/exceptions";
 
 export interface IPostService {
     createPost(data: CreatePostDto): Promise<PostResponseDto>;
@@ -33,6 +34,9 @@ export class PostService implements IPostService {
 
     async findById(id: number): Promise<PostResponseDto | null> {
         const post = await this.repo.findById(id);
+            if (post === null) {
+      throw new NotFoundException('Post not found', ['Post not found']);
+    }
         return post ? this.toResponseDto(post) : null;
     }
 
