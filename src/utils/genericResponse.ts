@@ -39,11 +39,11 @@ export class ResponseHelper {
   }
 
   // Error without data
-  static error(
+  static error<T>(
     message: string,
     statusCode: number = 400,
     errors?: string[] | string
-  ): GenericResponse<null> {
+  ): GenericResponse<T> {
     const errorList = errors
       ? Array.isArray(errors)
         ? errors
