@@ -9,7 +9,7 @@ Accept: application/json
 
 
 ### Get all posts
-GET http://localhost:4000/api/posts?searchTerm=node
+GET http://localhost:4000/api/posts?searchTerm=post
 Accept: application/json
 
 

@@ -5,6 +5,7 @@ import { NotFoundException } from "../exceptions/exceptions";
 import { GenericResponse, ResponseHelper } from "../utils/genericResponse";
 import { BlogParams } from "../Dtos/blogParams";
 import { PaginatedResponse, PaginatedResponseHelper, PaginationInfo } from "../utils/paginatedResponse";
+import { RedisCache } from "../redisConfig/redisCache";
 
 export interface IPostService {
     createPost(data: CreatePostDto): Promise<GenericResponse<PostResponseDto>>;
@@ -20,8 +21,8 @@ export interface IPostService {
 
 
 export class PostService implements IPostService {
-    private readonly repo: IPostRepository;
-    constructor(repo: IPostRepository) {
+    private readonly repo: RedisCache;
+    constructor(repo: RedisCache) {
       this.repo = repo;
     }
 
