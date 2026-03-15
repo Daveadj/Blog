@@ -51,6 +51,10 @@ private readonly IPostRepository: IPostRepository;
     async update(id: number, data: UpdatePostDto): Promise<Post | null> {
          const post = await this.IPostRepository.update(id, data);
 
+         if (!post) {
+           return null;
+         }
+
         if (post) {
         await deleteCache(this.postKey(id));
         await deleteCache("posts");

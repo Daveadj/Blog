@@ -50,7 +50,9 @@ export class PostRepository implements IPostRepository{
     findById(id: number): Promise<Post | null> {
        return prisma.post.findUnique({ where: { id } });
     }
-    update(id: number,data: UpdatePostDto): Promise<Post | null> {
+    async update(id: number,data: UpdatePostDto): Promise<Post | null> {
+      const exist = await prisma.post.findUnique({ where: { id } });
+      if(!exist) return Promise.resolve(null);
        return prisma.post.update({ where: { id }, data: { 
         ...(data.title && { title: data.title }),
         ...(data.content && { content: data.content })
