@@ -1,19 +1,25 @@
 import { createClient } from "redis";
-import { BadRequestException } from "../exceptions/exceptions";
+import { AppLogger } from "../utils/logger.interface";
 
 const redisUrl = process.env.REDIS_URL || 'redis://localhost:6379';
 
 const redisClient = createClient({
     url: redisUrl
 });
+
+let appLogger: AppLogger | null = null;
+
+export const configureRedisLogger = (logger: AppLogger): void => {
+  appLogger = logger;
+};
     
 
 redisClient.on("error", (err) => {
-  console.error("❌ Redis error: " + err.message);
+  appLogger?.error("Redis error", { message: err.message, stack: err.stack });
 });
 
 redisClient.on("connect", () => {
- console.log("✅ Redis connected");
+ appLogger?.info("Redis connected");
 });
 
 export const connectRedis = async (): Promise<void> => {

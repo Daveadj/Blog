@@ -1,0 +1,132 @@
+2026-03-15T22:38:24.319Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:24.549Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:24.729Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:24.953Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:25.502Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:26.490Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:28.195Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:30.311Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:32.399Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:34.461Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:36.643Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:38.761Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:40.868Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:42.967Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:45.127Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:47.241Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:49.329Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:51.505Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:53.694Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:55.792Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:38:57.872Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:00.053Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:02.135Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:04.315Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:06.522Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:08.665Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:10.845Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:12.947Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:15.064Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:17.230Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:19.313Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:21.333Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:23.406Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:25.490Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:39:27.689Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:50.398Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:50.408Z [warn] Redis reconnecting 
+2026-03-15T22:40:50.411Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:50.676Z [warn] Redis reconnecting 
+2026-03-15T22:40:50.681Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:51.192Z [warn] Redis reconnecting 
+2026-03-15T22:40:51.196Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:51.959Z [warn] Redis reconnecting 
+2026-03-15T22:40:51.964Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:52.974Z [warn] Redis reconnecting 
+2026-03-15T22:40:52.979Z [error] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:52.980Z [warn] AggregateError: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7) 
+2026-03-15T22:40:52.981Z [info] Server is running on port 4000 
