@@ -1,3 +1,5 @@
+
+
 import winston from "winston";
 import DailyRotateFile from "winston-daily-rotate-file";
 
@@ -31,10 +33,24 @@ const fileTransport = new DailyRotateFile({
   format: fileFormat
 });
 
-export const logger = winston.createLogger({
-  level: process.env.LOG_LEVEL || "info",
-  transports: [
-    new winston.transports.Console({ format: consoleFormat }),
-    fileTransport
-  ]
-});
+
+
+export async function createLogger() {
+  // ✅ dynamic import fixes ESM issue
+  const { SeqTransport } = await import("@datalust/winston-seq");
+
+  const seqTransport = new SeqTransport({
+    serverUrl: process.env.SEQ_URL || "http://localhost:5341",
+    apiKey: process.env.SEQ_API_KEY || "vhDaPTuGHG0epqZFAmaC",
+    onError: (e) => console.error(e),
+  });
+
+  return winston.createLogger({
+    level: process.env.LOG_LEVEL || "info",
+    transports: [
+      new winston.transports.Console({ format: consoleFormat }),
+      fileTransport,
+      seqTransport
+    ]
+  });
+}
