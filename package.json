@@ -12,10 +12,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@datalust/winston-seq": "^3.0.1",
     "@prisma/client": "^6.19.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "prisma": "^6.19.0",
+    "prisma": "^7.6.0",
     "redis": "^5.10.0",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0"
